@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database connection settings -->
+
+        <!-- JDBC connection pool (use the built-in) -->
+        <!-- <property name="connection.pool_size">1</property>-->
+
+        <!-- 数据库使用的方言 -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <!-- 设置 打印输出 sql 语句 为真 -->
+        <property name="hibernate.show_sql">true</property>
+
+        <!-- 设置格式为 sql -->
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- 第一次加载 hibernate 时根据实体类自动建立表结构，以后自动更新表结构 -->
+        <property name="hibernate.hbm2ddl.auto">update</property>         
+        
+        <property name="hibernate.current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext</property>
+		
+    </session-factory>
+
+</hibernate-configuration>

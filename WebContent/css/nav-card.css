@@ -1,0 +1,52 @@
+.nav_area{
+	height: 120px;
+	background-color: #F2F2F2; 
+	border: 1px solid #D5D5D5;
+	border-radius: 4px;
+}
+
+.nav_part_area{
+	height: 80px;
+	margin: 20px 30px;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+.active{
+	color: #BB0303 !important;
+}
+
+.area_icon{
+	font-size: 40px;
+	line-height: 80px;
+	margin-left: 30px;
+	float: left;
+}
+
+.area_title{
+	font-size: 26px;
+	margin-top: 20px;
+	margin-left: 40px;	
+	height: 40px;
+	display: block;
+	float: left;
+}
+
+.area_title a{
+	color: #FFFFFF;
+	line-height: 40px;	
+	text-decoration: none;
+}
+
+.area_title a:hover{
+	color: #BB0303 !important;
+}
+
+
+.bg_color_green{
+	background-color: #5AC138;
+}
+
+.bg_color_blue{
+	background-color: #5680FF;
+}

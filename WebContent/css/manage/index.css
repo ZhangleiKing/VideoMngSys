@@ -1,0 +1,89 @@
+.user-info{
+	color: #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.cancel{
+	padding: 9px;
+}
+
+.condition-label{
+	color: green;
+	font-size: 18px;
+}
+
+.condition-word{
+	line-height: 34px;
+	padding: 0;
+}
+
+.condition-choice ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+.condition-choice ul li{
+	float: left;
+	width: 50px;
+	margin: 0 8px 0 8px;
+}
+
+.condition-choice ul li:hover{
+	color: green;
+	cursor: pointer;
+}
+
+.divider{
+	height: 1px;
+	width: 100%;
+	background-color: gray;
+	margin: 10px 0 10px 0;
+}
+
+.nav_path{
+	padding: 8px 0;
+	margin: 0 15px;
+}
+
+.specific_dir{
+	font-size: 18px;
+	margin: 0 45px;
+	padding: 8px 0 0 0;
+	cursor:pointer;
+}
+
+.dir_name{
+	margin-left: 10px;
+}
+
+.folder{
+	color: #E4CB4A;
+}
+
+.expanding_panel{
+	font-size: 18px;
+	margin: 0 60px;
+	display: none;
+}
+
+.single_record{
+	margin: 10px 0;
+}
+
+.single_record span:nth-child(1){
+	margin: 0 0 0 15px;
+}
+
+.single_record span:nth-child(2){
+	margin: 0 15px 0 45px;
+	cursor: pointer;
+	color: #4343E6;
+}
+
+.single_record span:nth-child(3){
+	margin: 0 0 0 15px;
+	cursor: pointer;
+	color: #FD1313;
+}
