@@ -59,7 +59,7 @@
 	                        <ul id="systemSetting" class="nav nav-list collapse secondmenu" style="height: 0px;">
 	                            <li><a href="<%=request.getContextPath() %>/admin/user" target="_blank"><i class="glyphicon glyphicon-user"></i>添加用户</a></li>
 	                            <li><a href="<%=request.getContextPath() %>/admin/list" target="_blank"><i class="glyphicon glyphicon-th-list"></i>用户列表</a></li>
-	                            <li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>角色管理</a></li>
+	                            <li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>存储计划</a></li>
 	                            <li><a href="#"><i class="glyphicon glyphicon-edit"></i>修改密码</a></li>
 	                            <li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>日志查看</a></li>
 	                        </ul>
